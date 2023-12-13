@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+body {
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  color: hsl(216, 12%, 54%);
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+.feedback-container {
+  background-color: hsl(213, 19%, 18%);
+  padding: 2em;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 350px;
+  text-align: center;
+  background: linear-gradient(145deg, shade(hsl(213, 19%, 18%), 5%), shade(hsl(213, 19%, 18%), -5%));
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rating-header h1,
+.rating-header p {
+  color: hsl(0, 0%, 100%);
+}
+
+.rating-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.rating-buttons .rating-button {
+  background-color: hsl(217, 12%, 63%);
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  color: hsl(216, 12%, 8%);
+  font-weight: 700;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.rating-buttons .rating-button:hover, .rating-buttons .rating-button:focus {
+  background-color: #fc9145;
+  transform: scale(1.1);
+}
+.rating-buttons .rating-button.active {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: 0 0 10px hsl(25, 97%, 53%);
+}
+
+.submit-button {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  padding: 1em 2em;
+  border-radius: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.submit-button:hover {
+  background-color: #d85c03;
+}
+
+.attribution {
+  margin-top: 12em;
+  font-size: 11px;
+  color: hsl(217, 12%, 63%);
+}
+.attribution a {
+  color: hsl(0, 0%, 100%);
+}
+
+@media (min-width: 1440px) {
+  .feedback-container {
+    max-width: 600px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
