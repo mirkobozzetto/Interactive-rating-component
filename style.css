@@ -38,12 +38,12 @@ body {
   margin: 20px 0;
 }
 .rating-buttons .rating-button {
+  color: hsl(0, 0%, 100%);
   background-color: hsl(217, 12%, 63%);
   border: none;
   border-radius: 50%;
   width: 45px;
   height: 45px;
-  color: hsl(216, 12%, 8%);
   font-weight: 700;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
