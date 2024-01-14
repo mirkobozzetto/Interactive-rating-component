@@ -34,26 +34,23 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  text-align: center;
+  // text-align: center;
 }
 
 // Feedback container styles
 .feedback-container {
   background-color: $darkBlue;
   padding: 2em;
-  border-radius: 15px;
-  width: 90%;
-  max-width: 350px;
-  text-align: center;
-  background: linear-gradient(
-    145deg,
-    shade($darkBlue, 5%),
-    shade($darkBlue, -5%)
-  );
-  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 1.5rem;
+  max-width: 38vw;
 }
 
 .star-icon {
+  width: 25px;
+  height: 25px;
+  background-color: hsla(0, 0%, 100%, 0.128);
+  padding: 10px;
+  border-radius: 50px;
 }
 
 .rating-header {
